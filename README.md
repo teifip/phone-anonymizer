@@ -27,4 +27,4 @@ npm install phone-anonymizer --save
 
 `country` is the [alpha-2 code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) of the country in which the phone number is valid.
 
-Returns a hex string with the SHA-256 of `phoneNumber` after conversion to E.164 format or null if `phoneNumber` is invalid for `country`.
+Returns a hex string with the [SHA-256](https://en.wikipedia.org/wiki/SHA-2) of `phoneNumber` after conversion to [E.164](https://en.wikipedia.org/wiki/E.164) format or null if `phoneNumber` is invalid for `country`.

@@ -1,0 +1,23 @@
+{
+  "name": "phone-anonymizer",
+  "version": "1.0.0",
+  "description": "Simple phone number anonymizer",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/teifip/phone-anonymizer.git"
+  },
+  "keywords": [
+    "phone number",
+    "anonymizer"
+  ],
+  "bugs": {
+    "url": "https://github.com/teifip/phone-anonymizer/issues"
+  },
+  "homepage": "https://github.com/teifip/phone-anonymizer#readme",
+  "author": "Paolo Fiorini <teifip@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "google-libphonenumber": "^3.2.2"
+  }
+}
